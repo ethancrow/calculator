@@ -1,0 +1,81 @@
+body{
+    background-image: url("https://images.wallpaperscraft.com/image/mountains_sunset_trees_123686_3840x2400.jpg");
+    background-repeat: no repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    }
+body,html{
+    height: 100%;
+    margin: 0;
+}
+#container{
+    width: 1000px;
+    height: 550px;
+    margin: 100px auto;
+
+}
+#calc{
+    width: 320px;
+    height:520px;
+
+    margin: 0 auto;
+    top:20px;
+    position: relative;
+    border-radius: 5px;
+    background-color: transparent;
+}
+#result{
+    height: 120px;
+    font-family: 'Bungee Shade', cursive
+}
+#history    {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size:15px ;
+    color: #081625;
+    font-family: 'Bungee Shade', cursive
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+    color: #081625;
+}
+#keyboard{
+    height: 400px;
+}
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+    color: #081625;
+    font-family: 'Bungee', cursive;
+}
+.number, .empty{
+    background-color: #edbbd7;
+   border: solid #081625;
+}
+.number, .operator{
+cursor:pointer;
+}
+.operator:active, .number:active{
+    font-size: 13px;
+}
+.operator:focus, .number:focus, .number:focus{
+    outline:0;
+}
+.operator{
+    background-color: #081625;
+    color: white;
+}
+
+/*    linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));*/
